@@ -2,8 +2,12 @@ import React, { Fragment, useState } from 'react';
 import IconMusic from '@assets/images/music-icon.png';
 import IconMusicStop from '@assets/images/music-stop-icon.png';
 import MusicBacksound from '@assets/music/lagu-pernikahan-impian.mp3';
+import MusicBacksound2 from '@assets/music/beautiful-in-white.mp3';
 
 import { styMusicFloating } from './styles';
+
+let Musik = [MusicBacksound, MusicBacksound2];
+let MusikPlay = Musik[Math.floor(Math.random() * Musik.length)];
 
 function FloatingMusic() {
   const [play, setPlay] = useState(true);
@@ -27,7 +31,7 @@ function FloatingMusic() {
     <Fragment>
       <div css={styMusicFloating}>
         <audio id="myAudio" loop className="hide">
-          <source src={MusicBacksound} type="audio/mpeg" />
+          <source src={MusikPlay} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
 

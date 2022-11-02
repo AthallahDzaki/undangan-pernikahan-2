@@ -14,23 +14,20 @@ function MainLayout({ children }) {
   return (
     <Fragment>
       <Helmet>
-        <title>Dinda ❤️ Indra Wedding</title>
+        <title>Selena ❤️ Justin Wedding</title>
 
         {/* Favicon */}
         <link rel="icon" type="image/png" href={Favicon} />
 
         {/* font and SEO tags */}
-        <meta property="og:title" content="The Wedding of Dinda & Indra" />
-        <meta property="og:image" content={IMAGE_URL} />
-        <meta property="og:url" content="https://thekusuma.com" />
-        <meta property="og:site_name" content="The Wedding of Dinda & Indra" />
+        <meta property="og:title" content="The Wedding of Selena & Justin" />
+        <meta property="og:url" content="https://undangan.xiimipa3smanawa.my.id" />
+        <meta property="og:site_name" content="The Wedding of Selena & Justin" />
         <meta property="og:description" content={META_DESCRIPTION} />
-        <meta name="twitter:title" content="The Wedding of Dinda & Indra" />
+        <meta name="twitter:title" content="The Wedding of Selena & Justin" />
         <meta name="twitter:description" content={META_DESCRIPTION} />
-        <meta name="twitter:image" content={IMAGE_URL} />
-        <meta name="twitter:url" content="https://thekusuma.com" />
+        <meta name="twitter:url" content="https://undangan.xiimipa3smanawa.my.id" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:creator" content="@idindrakusuma" />
 
         <link
           href="https://fonts.googleapis.com/css?family=Work+Sans:400,300,600,400italic,700"

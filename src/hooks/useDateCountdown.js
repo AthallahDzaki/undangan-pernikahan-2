@@ -20,7 +20,6 @@ function useDateCountdown() {
 
   const calculateTimeLeft = useCallback(() => {
     const TIME_LEFT = EPOCH_START_EVENT - currentEpochTime;
-
     if (TIME_LEFT < 0) {
       setIsEventOver(currentEpochTime > EPOCH_END_EVENT);
       setTimeHasRunOut(true);
@@ -51,7 +50,6 @@ function useDateCountdown() {
         calculateTimeLeft();
       }
     }, INTERVAL_TIME);
-
     return () => clearInterval(interval);
   }, [calculateTimeLeft, timeHasRunOut]);
 
