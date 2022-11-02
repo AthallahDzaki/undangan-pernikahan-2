@@ -30,7 +30,7 @@ function FloatingMusic() {
   return (
     <Fragment>
       <div css={styMusicFloating}>
-        <audio id="myAudio" loop className="hide">
+        <audio id="myAudio" loop autoplay className="hide">
           <source src={MusikPlay} type="audio/mpeg" />
           Your browser does not support the audio element.
         </audio>
