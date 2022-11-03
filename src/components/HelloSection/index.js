@@ -29,9 +29,9 @@ function HelloSection() {
                 <img src={Bride} alt="groom" className="img-responsive" loading="lazy" />
               </div>
               <div className="desc-groom">
-                <h3 className="main-font">dr. Selena Amira Qudsiyah, Sp.PD.</h3>
+                <h3 className="main-font">dr. Selena De'luna Oktavian, Sp.PD.</h3>
                 <p className="parent-name parent-name__top">
-                  Putri Bapak Samuel Alexander Pieter <br />& Ibu Karin Novilda
+                  Putri Bapak Muhammad Younglex Oktavian <br />& Ibu Awkarin Novilda
                 </p>
               </div>
             </div>
